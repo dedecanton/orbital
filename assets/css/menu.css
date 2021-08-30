@@ -1,0 +1,82 @@
+/* ======== MENU ========== */
+
+.navbar{
+    width:100%;
+    position:fixed;
+    /* padding: ; */
+    transition: all 0.3s ease;
+    z-index: 99;
+    font-size: var(--h2-font-size);
+    padding-top: .5rem;
+    
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    padding-top: 5rem;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+   
+    background: var(--dark-gray);
+    transition: all .3s ease;
+    z-index: -1;
+
+}
+
+.nav-list.active{
+    left: 0;
+}
+
+
+.nav-item{
+    padding-left: 5%;
+    padding-top: 1rem;
+}
+
+.nav-link{
+    color: var(--white);
+    font-weight: 600;
+    
+}
+
+
+.menu-btn{
+    display: block;
+    cursor: pointer;
+    color: var(--dark-gray);
+    font-size: var(--btn-font-size);
+}
+
+
+.menu-btn i.active::before{
+    content: '\f00d';
+    color: var(--white);
+}
+
+
+.nav-logo, .menu-btn{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img{
+    content: url('../images/logo.svg');
+}
+
+.nav-logo.active img{
+    content: url('../images/logo-white.svg');
+}
+
+

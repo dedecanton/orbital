@@ -2,6 +2,10 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+/* files css */
+@import url('./general.css');
+@import url('./menu.css');
+
 
 :root {
 
@@ -36,10 +40,6 @@
     --z-behind: -1;
     --z-tooltip: 10;
     --z-fixed: 100;
-
-
-    /* images */
-    --logo-default: '../images/logo.svg'
 }
 
 @media screen and (min-width: 968px) {
@@ -54,121 +54,4 @@
 
 
 
-/* =========== General ============ */
 
-body {
-    margin: var(--header-height) 0 0 0;
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: var(--font-semi-bold);
-    color: var(--title-color);
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.container{
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-/* ======== MENU ========== */
-
-.navbar{
-    width:100%;
-    position:fixed;
-    /* padding: ; */
-    transition: all 0.3s ease;
-    z-index: 99;
-    font-size: var(--h2-font-size);
-    padding-top: .5rem;
-    
-}
-
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-list{
-    padding-top: 5rem;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    left: -100%;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: left;
-   
-    background: var(--dark-gray);
-    transition: all .3s ease;
-    z-index: -1;
-
-}
-
-.nav-list.active{
-    left: 0;
-}
-
-
-.nav-item{
-    padding-left: 5%;
-    padding-top: 1rem;
-}
-
-.nav-link{
-    color: var(--white);
-    font-weight: 600;
-    
-}
-
-
-.menu-btn{
-    display: block;
-    cursor: pointer;
-    color: var(--dark-gray);
-    font-size: var(--btn-font-size);
-}
-
-
-.menu-btn i.active::before{
-    content: '\f00d';
-    color: var(--white);
-}
-
-
-.nav-logo, .menu-btn{
-    display: flex;
-    align-items: center;
-}
-
-.nav-logo img{
-    content: url('../images/logo.svg');
-}
-
-.nav-logo.active img{
-    content: url('../images/logo-white.svg');
-}
