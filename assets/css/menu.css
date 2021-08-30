@@ -3,7 +3,6 @@
 .navbar{
     width:100%;
     position:fixed;
-    /* padding: ; */
     transition: all 0.3s ease;
     z-index: 99;
     font-size: var(--h2-font-size);
@@ -80,3 +79,39 @@
 }
 
 
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (min-width:968px){
+
+    
+    .menu-btn{
+        display: none;
+    }
+
+    .nav-list{
+        background-color: transparent;
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        font-size: var(--normal-font-size);
+        padding: 0;
+        width: auto;
+        height: auto;
+        align-items: center;
+        z-index: var(--z-tooltip);
+
+    }
+
+    .nav-link{
+        padding-left: 1.3rem;
+        color: var(--dark-gray);
+    }
+
+    .nav-item{
+        padding: 0;
+    }
+
+}
