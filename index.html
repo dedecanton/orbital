@@ -9,11 +9,11 @@
     <title>Orbital</title>
 
 
-    <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1eb41f0f5f.js" crossorigin="anonymous"></script>
+
     <!-- logo -->
-    <link rel="shortcut icon" href="./assets/images/logo.png " type="image/png">
+    <link rel="shortcut icon" href="./assets/images/logo-white.svg " type="image/svg">
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -21,39 +21,46 @@
 </head>
 
 <body>
-
+    <!-- MENU -->
     <header>
 
-        <nav class="nav container">
+        <nav class="navbar">
 
-        <div class="nav__logo">
-            <img src="./assets/images/logo.png" alt="logo">
-        </div>
+            <div class="container nav-container">
 
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#inicio" class="nav__link">Início</a></li>
-                <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
-                <li class="nav__item"><a href="#equipe" class="nav__link">Equipe</a></li>
-                <li class="nav__item"><a href="#projetos" class="nav__link">Projetos</a></li>
-                <li class="nav__item"><a href="#galeria" class="nav__link">Galeira</a></li>
-                <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                <a href='#' class="nav-logo">
+                    <img alt="logo">
+                </a>
 
-            </ul>
-        </div>
-        <!--nav__menu-->
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link"><i class="fas fa-angle-right"></i> Início</a></li>
+                    <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#equipe" class="nav-link">Equipe</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#galeria" class="nav-link">Galeira</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+
+                </ul>
 
 
-        <div class="nav__toggle" id="nav-toggle">
-            <i class='bx bx-menu-alt-right'></i>
-        </div>
-        
-        </nav><!--nav-->
+                <div class="menu-btn" id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <!--nav-container-->
+        </nav>
+        <!--nav-->
 
     </header>
 
-    <!-- MENU -->
+    <section id="inicio" class="home"></section>
+    <section id='servicos' class="2"></section>
+    <section id='equipe' class="3"></section>
+    <section id='projetos' class="4"></section>
+    <section id='galeria' class="5"></section>
+
+
     <!-- HOME -->
     <!-- O QUE FAZEMOS? -->
     <!-- QUEM SOMOS? -->
@@ -62,7 +69,7 @@
     <!-- CONTATO -->
     <!-- FOOTER -->
 
-    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.js" type="module"></script>
 
 </body>
 
