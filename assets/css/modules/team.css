@@ -1,0 +1,186 @@
+section.squad {
+    background-color: var(--secondary-color);
+    padding: var(--mb-7) 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.squad-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: var(--mb-4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    width: 15rem;
+    padding: var(--mb-5);
+    border-radius: .5rem;
+
+
+    background-color: var(--dark-gray);
+    /* border: solid red 5px; */
+
+
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+
+
+
+}
+
+
+.card-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: var(--mb-2);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.card-container {
+    margin-top: .5rem;
+    color: var(--white);
+}
+
+.card-title {
+    margin-bottom: var(--mb-1);
+}
+
+.social {
+    font-size: var(--normal-font-size);
+    color: var(--white)
+}
+
+
+.social a {
+    color: var(--white);
+}
+
+.slider {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+.main-card {
+    z-index: var(--z-main);
+    border: 5px solid var(--body-color);
+}
+
+.main-card.transition {
+    animation: transition-card  .5s;
+}
+
+.previous-card,
+.next-card {
+    opacity: .2;
+    z-index: var(--z-tooltip);
+}
+
+
+.previous-card {
+    opacity: 0.5;
+    transform: skewy(10deg);
+    transform-origin: top right;
+    margin-right: 1rem;
+}
+
+.previous-card.transition {
+    animation: transition-card-previous .5s;
+}
+
+
+
+.next-card {
+    opacity: 0.5;
+    transform: skewy(-10deg);
+    transform-origin: top left;
+    margin-left: 1rem;
+}
+
+.next-card.transition {
+    animation: transition-card-next .5s;
+}
+
+
+
+
+@keyframes transition-card {
+
+    from {
+        transform: scale(.3)
+    }
+
+    to {
+        transform: scale(1)
+    }
+
+}
+
+
+@keyframes transition-card-previous {
+
+    from {
+        transform: skewy(10deg) scale(.3)
+    }
+
+    to {
+        transform: skewy(10deg) scale(1)
+    }
+
+}
+
+@keyframes transition-card-next {
+
+    from {
+        transform: skewy(-10deg) scale(.3)
+    }
+
+    to {
+        transform: skewy(-10deg) scale(1)
+    }
+}
+
+.slider-button{
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    font-size: var(--h2-font-size);
+    z-index: var(--z-fixed);
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+ .nav-left{
+    margin-right: 3rem
+}
+
+.nav-right{
+    margin-left: 3rem
+} 
+

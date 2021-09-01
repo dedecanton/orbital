@@ -3,23 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /* files css */
-@import url('./general.css');
-@import url('./menu.css');
+@import url('./modules/general.css');
+@import url('./modules/menu.css');
+@import url('./modules/team.css');
 
 
 :root {
 
     /* =========== Cores ========  */
     --body-color: #FAF0E8;
+    --secondary-color: #EBD5C6;
     --dark-gray: #383838;
     --white: #FFFFFF;
+    --hover-menu-link: #000000;
 
 
 
     /* ========== Fontes ============ */
     --body-font: 'Poppins', sans-serif;
     --biggest-font-size: 2rem;
-    --h2-font-size: 1.25rem;
+    --h2-font-size: 1.75rem;
     --h3-font-size: 1.125rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
@@ -36,9 +39,11 @@
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+    --mb-7: 4rem;
     /*========== z index ==========*/
     --z-behind: -1;
     --z-tooltip: 10;
+    --z-main: 50;
     --z-fixed: 100;
 }
 
@@ -53,8 +58,3 @@
 }
 
 
-
-
-section{
-    height: 100vh;
-}

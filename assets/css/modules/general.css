@@ -1,5 +1,9 @@
 /* =========== General ============ */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -30,9 +34,19 @@ img {
     height: auto;
 }
 
+
 .container{
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
+.section-title{
+    color: var(--dark-gray);
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+    text-align: center;
+}
+
 
