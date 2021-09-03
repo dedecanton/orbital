@@ -37,6 +37,9 @@ function scrollLeft() {
 };
 
 export function changeView(viewName, object) {
+  
+  transitionCards()
+
   let view = document.getElementById(viewName);
   view.querySelector('.card-img').style.backgroundImage = `url(${object.image})`;
   view.querySelector('.card-title').textContent = object.name;
@@ -65,4 +68,6 @@ export function listenerScroll() {
   document.addEventListener('keyup', e => (e.keyCode === 37) 
             ? scrollLeft() 
             : (e.keyCode === 39) ? scrollRight(): undefined);
+  
+
 }
