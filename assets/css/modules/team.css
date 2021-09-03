@@ -1,5 +1,6 @@
 section.squad {
     background-color: var(--secondary-color);
+
     padding: var(--mb-7) 0;
     width: 100%;
     display: flex;
@@ -9,6 +10,11 @@ section.squad {
     overflow: hidden;
     position: relative;
 
+    background-image: url('../../images/lines-background-mobile.png');
+    background-position: top;
+    background-size: contain;
+    
+
 }
 
 .squad-container {
@@ -17,6 +23,7 @@ section.squad {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .card {
