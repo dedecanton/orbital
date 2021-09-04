@@ -7,7 +7,6 @@ export const views = {
 }
 
 const gallery = new Gallery();
-const slider = document.querySelector('.slider')
 
 /* Conexão da API do Orbital (Spring boot) */
 function connectGallery() {
@@ -26,15 +25,15 @@ function transitionCards() {
   const cards = document.querySelectorAll('.card');
   cards.forEach(card => card.classList.add('transition'));
   setTimeout(() => cards.forEach(card => card.classList.remove('transition')), 501);
-};
+}
 
 function scrollRight() {
   gallery.next();
-};
+}
 
 function scrollLeft() {
   gallery.prev();
-};
+}
 
 export function changeView(viewName, object) {
   
@@ -57,7 +56,16 @@ export function changeView(viewName, object) {
   github.querySelector('a').href = object.github.url;
 
   let whatsapp = view.querySelector('.whatsapp');
-  whatsapp.querySelector('.text').textContent = object.whatsapp.url;
+  whatsapp.querySelector('.text').textContent = formatNumber(`${object.whatsApp.name}`.substring(2));
+  whatsapp.querySelector('a').href = object.whatsApp.url;
+}
+
+function formatNumber(number) {
+  var match = number.match("^(\\d{2})(\\d{5})(\\d{4})$");
+  if (match) {
+    return `(${match[1]}) ${match[2]}-${match[3]}`;
+  }
+  return number;
 }
 
 export function listenerScroll() {
@@ -68,6 +76,4 @@ export function listenerScroll() {
   document.addEventListener('keyup', e => (e.keyCode === 37) 
             ? scrollLeft() 
             : (e.keyCode === 39) ? scrollRight(): undefined);
-  
-
 }
