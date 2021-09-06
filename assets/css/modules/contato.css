@@ -40,7 +40,8 @@
     outline: none;
     border: none;
     text-align: left;
-    width: 20rem;
+    width: 15rem;
+    
 }
 
 .contato label{
@@ -51,6 +52,7 @@
 }
 
 textarea.form-text{
+    width: 15rem;
     resize: vertical;
 }
 
