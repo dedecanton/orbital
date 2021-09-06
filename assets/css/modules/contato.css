@@ -1,6 +1,5 @@
 .contato{
     padding: 3rem auto;
-    padding-bottom: 1rem;
     background-color: var(--dark-gray);
     border-radius: 2rem 2rem 0 0 ;
 }
@@ -59,7 +58,6 @@ textarea.form-text{
 .form-btn{
     background-color: var(--btn-color) ;
     color: var(--white);
-    padding: 1rem;
     font-size: var(--normal-font-size);
     border: none;
     outline: none;

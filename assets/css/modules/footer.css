@@ -1,0 +1,18 @@
+footer{
+    padding: var(--mb-4) 0;
+    background-color: var(--dark-gray);
+}
+
+footer .container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    margin-top: var(--mb-1);
+    color: var(--white);
+    font-size: var(--normal-font-size);
+}
