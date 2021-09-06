@@ -1,0 +1,67 @@
+.contato{
+    padding: 3rem auto;
+    padding-bottom: 1rem;
+    background-color: var(--dark-gray);
+    border-radius: 2rem 2rem 0 0 ;
+}
+
+.contato .section-title{
+    padding: 1.5rem;
+    color: var(--white);
+}
+
+.contato-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: var(--h3-font-size);
+}
+
+.form-section:first-child{
+    margin-top: 0 ;
+}
+
+.contato .form-text{
+    border-radius: .8rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    text-align: left;
+}
+
+.contato label{
+    padding-left: .5rem;
+    padding-bottom: .5rem;
+    font-weight: var(--font-semi-bold);
+    text-align: left;
+}
+
+textarea.form-text{
+    resize: vertical;
+}
+
+.form-btn{
+    background-color: var(--btn-color) ;
+    color: var(--white);
+    padding: 1rem;
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: var(--mb-2) var(--mb-7); 
+    border-radius: .3rem;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    cursor: pointer;
+}
+

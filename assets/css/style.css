@@ -6,6 +6,7 @@
 @import url('./modules/general.css');
 @import url('./modules/menu.css');
 @import url('./modules/team.css');
+@import url('./modules/contato.css');
 
 
 :root {
@@ -16,6 +17,7 @@
     --dark-gray: #383838;
     --white: #FFFFFF;
     --hover-menu-link: #000000;
+    --btn-color: #DD6944;
 
 
 
