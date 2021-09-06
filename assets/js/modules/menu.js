@@ -26,7 +26,7 @@ function scrollActive() {
 
     sections.forEach(currentSection => {
         const sectionHeight = currentSection.offsetHeight
-        const sectionTop = currentSection.offsetTop - 100;
+        const sectionTop = currentSection.offsetTop - 200;
         let sectionId = currentSection.getAttribute('id')
 
 
