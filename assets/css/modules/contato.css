@@ -16,8 +16,14 @@
     justify-content: center;
     align-items: center;
     color: var(--white);
-    text-align: center;
-    
+    text-align: center;    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-section{
@@ -25,11 +31,7 @@
     flex-direction: column;
     margin: 1rem auto;
     text-align: center;
-    font-size: var(--h3-font-size);
-}
-
-.form-section:first-child{
-    margin-top: 0 ;
+    font-size: var(--h3-font-size);    
 }
 
 .contato .form-text{
@@ -38,6 +40,7 @@
     outline: none;
     border: none;
     text-align: left;
+    width: 20rem;
 }
 
 .contato label{
@@ -63,5 +66,5 @@ textarea.form-text{
     font-size: var(--h3-font-size);
     font-weight: var(--font-semi-bold);
     cursor: pointer;
+    margin-top: 1rem;
 }
-
