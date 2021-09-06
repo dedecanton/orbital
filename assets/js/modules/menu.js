@@ -32,7 +32,6 @@ function scrollActive() {
 
         let link = document.querySelector('.nav-link[href*=' + sectionId + ']')
         let text = link.textContent;
-
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             link.innerHTML = `<i class="fas fa-angle-right"></i> ${text}`
         } else {
