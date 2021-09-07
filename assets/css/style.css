@@ -6,6 +6,7 @@
 @import url('./modules/general.css');
 @import url('./modules/menu.css');
 @import url('./modules/team.css');
+@import url('./modules/servicos.css');
 @import url('./modules/contato.css');
 @import url('./modules/footer.css');
 
@@ -24,6 +25,7 @@
 
     /* ========== Fontes ============ */
     --body-font: 'Poppins', sans-serif;
+    --icon-font-size: 3rem;
     --biggest-font-size: 2rem;
     --h2-font-size: 1.75rem;
     --h3-font-size: 1.125rem;
