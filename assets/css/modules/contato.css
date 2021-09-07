@@ -69,18 +69,24 @@ textarea.form-text{
     margin-top: 1rem;
 }
 
-.form-message {
-    font-size: 1rem;
+
+.form-message.invalid-message,
+.form-message.successful-message {
+    padding: var(--mb-2 );
+    font-size: var(--small-font-size);
+    border-radius: var(--mb-3);
+    color: var(--white);
     font-style: italic;
 }
 
-.form-message.invalid-message {
-    color: red;
+
+.form-message.invalid-message{
+    background-color: var(--error-color);
 }
 
 .form-message.successful-message {
-    margin-top: 1rem;
-    color: #00ff00;
+    margin-top: var(--mb-3);
+    background-color: var(--success-color);
 }
 
 @media screen and (min-width: 968px){
