@@ -1,6 +1,6 @@
 import {showMenu, removeMenuOnClick, scrollActive} from './modules/menu.js'
 import { loadGallery , listenerScroll } from './modules/slider.js'
-
+import './modules/form.js';
 
 // SHOW MENU-ICON ON CLICK
 showMenu();

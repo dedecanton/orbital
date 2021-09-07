@@ -70,3 +70,17 @@ textarea.form-text{
     cursor: pointer;
     margin-top: 1rem;
 }
+
+.form-message {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.form-message.invalid-message {
+    color: red;
+}
+
+.form-message.successful-message {
+    margin-top: 1rem;
+    color: #00ff00;
+}

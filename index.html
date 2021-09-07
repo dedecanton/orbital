@@ -192,11 +192,11 @@
 
             <h2 class="section-title">Contato</h2>
 
-            <form class='form' action="">
+            <form class="form" id="contato-form">
 
                 <div class="form-section">
                     <label for="name">Nome completo</label>
-                    <input class='form-text' type="text" name="user_name" id="name">
+                    <input class='form-text' type="text" name="user_name" id="name" required>
                 </div>
 
                 <div class="form-section">
@@ -207,9 +207,8 @@
                 <div class="form-section">
                     <label for="message">Mensagem</label>
                     <textarea class='form-text' name="user_message" id="message" cols="30" rows="10"
-                        placeholder="Deixe sua mensagem!"></textarea>
+                        placeholder="Deixe sua mensagem!" required></textarea>
                 </div>
-
 
                 <button class='form-btn btn' type="submit">Enviar</button>
             </form>
