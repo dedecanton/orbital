@@ -76,7 +76,7 @@ class GalleryCarrousel {
         this.prev = (() => {
             this.set(views.RIGHT, this.get(views.MIDDLE));
             this.set(views.MIDDLE, this.get(views.LEFT));
-            this.set(views.LEFT, (this.nextValue == 0) ? this.maxValue - 1 : this.get(views.LEFT) - 1);
+            this.set(views.LEFT, (this.get(views.LEFT) == 0) ? this.maxValue -1 : this.get(views.LEFT) - 1);
         });
     }
 }
