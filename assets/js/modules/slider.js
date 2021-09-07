@@ -56,8 +56,8 @@ export function changeView(viewName, object) {
   github.querySelector('a').href = object.github.url;
 
   let whatsapp = view.querySelector('.whatsapp');
-  whatsapp.querySelector('.text').textContent = formatNumber(`${object.whatsApp.name}`.substring(2));
-  whatsapp.querySelector('a').href = object.whatsApp.url;
+  whatsapp.querySelector('.text').textContent = formatNumber(`${object.whatsapp.name}`.substring(2));
+  whatsapp.querySelector('a').href = object.whatsapp.url;
 }
 
 function formatNumber(number) {
