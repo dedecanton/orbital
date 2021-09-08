@@ -36,12 +36,12 @@ function scrollLeft() {
 }
 
 export function changeView(viewName, object) {
-  
+
   transitionCards()
 
   let view = document.getElementById(viewName);
   view.querySelector('.card-img').style.backgroundImage = `url(${object.image})`;
-  view.querySelector('.card-title').textContent = object.name;
+  view.querySelector('.card-title').textContent = formatName(object.name);
 
   let linkedIn = view.querySelector('.linkedin');
   linkedIn.querySelector('.text').textContent = object.linkedin.name;
@@ -60,6 +60,11 @@ export function changeView(viewName, object) {
   whatsapp.querySelector('a').href = object.whatsapp.url;
 }
 
+function formatName(userName){
+  let split = userName.split(" ");
+  return `${split[0]} ${split[1]}`;
+}
+
 function formatNumber(number) {
   var match = number.match("^(\\d{2})(\\d{5})(\\d{4})$");
   if (match) {
@@ -73,7 +78,7 @@ export function listenerScroll() {
   document.getElementById("navLeft").addEventListener("click", scrollLeft);
   document.getElementById("rightView").addEventListener("click", scrollRight);
   document.getElementById("leftView").addEventListener("click", scrollLeft);
-  document.addEventListener('keyup', e => (e.keyCode === 37) 
-            ? scrollLeft() 
-            : (e.keyCode === 39) ? scrollRight(): undefined);
+  document.addEventListener('keyup', e => (e.keyCode === 37)
+    ? scrollLeft()
+    : (e.keyCode === 39) ? scrollRight() : undefined);
 }
