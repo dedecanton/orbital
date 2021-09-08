@@ -188,11 +188,27 @@ section.equipe {
     justify-content: center;
 }
 
- .nav-left{
+ .nav-left {
     margin-right: 3rem
 }
 
-.nav-right{
-    margin-left: 3rem
-} 
+.nav-left:hover {
+    transform: translate(-10px, 0);
+    color: var(--black);
+    transition: 0.4s;
+}
 
+.nav-right {
+    margin-left: 3rem
+}
+
+.nav-right:hover {
+    transform: translate(10px, 0);
+    color: var(--black);
+    transition: 0.4s;
+}
+
+.nav-right, .nav-left {
+    transform: translate(0, 0);
+    transition: 0.4s;
+}
