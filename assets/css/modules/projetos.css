@@ -45,7 +45,13 @@
     transition: .3s ease;
     background-color: var(--dark-gray);
     border-bottom: var(--mb-1) solid var(--black);
-  }
+}
+
+.overlay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 
 .project:hover .overlay{
     opacity: .9;
@@ -55,11 +61,20 @@
     color: white;
     font-size: 70px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.overlay-content {
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: var(--small-font-size);
+    padding: 0.4rem;
+    user-select: none;
 }
 
 .project-img{
