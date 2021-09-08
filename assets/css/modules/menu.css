@@ -1,7 +1,7 @@
 /* ======== MENU ========== */
 
 .navbar{
-    background-color: var(--light-purple);
+    background-color: var(--body-color);
     width:100%;
     position:fixed;
     transition: all 0.3s ease;
@@ -11,8 +11,8 @@
 }
 
 .navbar.active {
-    background-color: var(--body-color);
-    box-shadow: 0 .03rem .3rem;
+    background-color: var(--white);
+    box-shadow: 0 2px 4px var(--border-header);
 }
 
 .nav-container{
