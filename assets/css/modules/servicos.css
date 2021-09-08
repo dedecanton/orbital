@@ -27,8 +27,8 @@
 }
 
 .activitie:hover{
-    background-color: var(--modern-blue);
-    border-color: var(--modern-blue);
+    background-color: var(--dark-gray);
+    /* border-color: var(--black); */
     color: var(--white);
     transform: scale(1.1);
 }
