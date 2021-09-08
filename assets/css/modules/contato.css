@@ -56,18 +56,24 @@ textarea.form-text{
 
 .form-btn{
     background-color: var(--btn-color) ;
-    color: var(--white);
+    
+    color: var(--dark-gray);
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
     padding: var(--mb-2) var(--mb-7); 
     border-radius: .3rem;
     font-size: var(--h3-font-size);
-    font-weight: var(--font-semi-bold);
+    font-weight: var(--font-bold);
     cursor: pointer;
     margin-top: 1rem;
+    transition: .3s;
 }
 
+.form-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px var(--white);
+}
 
 .form-message.invalid-message,
 .form-message.successful-message {
