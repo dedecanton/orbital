@@ -1,7 +1,7 @@
 /* ======== MENU ========== */
 
 .navbar{
-    background-color: var(--secondary-color);
+    background-color: var(--light-purple);
     width:100%;
     position:fixed;
     transition: all 0.3s ease;

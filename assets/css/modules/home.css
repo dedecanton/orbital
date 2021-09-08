@@ -1,4 +1,5 @@
-.inicio{
+.inicio {
+    background-color: var(--light-purple);
     padding-top: var(--mb-7);
     padding-bottom: var(--mb-4);
     position: relative;
