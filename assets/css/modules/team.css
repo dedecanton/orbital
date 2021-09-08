@@ -103,6 +103,7 @@ section.equipe {
 .next-card {
     opacity: .2;
     z-index: var(--z-tooltip);
+    cursor: pointer;
 }
 
 
@@ -117,8 +118,6 @@ section.equipe {
     animation: transition-card-previous .5s;
 }
 
-
-
 .next-card {
     opacity: 0.5;
     transform: skewy(-10deg);
@@ -130,7 +129,12 @@ section.equipe {
     animation: transition-card-next .5s;
 }
 
-
+[aria-current="page"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+  }
 
 
 @keyframes transition-card {

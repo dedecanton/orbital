@@ -38,15 +38,16 @@
     opacity: 0;
     transition: .3s ease;
     background-color: var(--dark-gray);
+    border-bottom: var(--mb-1) solid var(--black);
   }
 
 .project:hover .overlay{
-    opacity: 1;
+    opacity: .9;
 }
 
 .icon {
     color: white;
-    font-size: 100px;
+    font-size: 70px;
     position: absolute;
     top: 50%;
     left: 50%;

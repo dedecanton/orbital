@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .activitie{
@@ -27,11 +27,10 @@
 }
 
 .activitie:hover{
-    background-color: var(--secondary-color);
-    border-color: var(--secondary-color);
+    background-color: var(--modern-blue);
+    border-color: var(--modern-blue);
     color: var(--white);
     transform: scale(1.1);
-
 }
 
 .activitie-container{
@@ -56,5 +55,6 @@
 @media screen and (min-width: 968px) {
     .activities{
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
