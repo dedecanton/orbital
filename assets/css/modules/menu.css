@@ -1,13 +1,18 @@
 /* ======== MENU ========== */
 
 .navbar{
-    background-color: var(--body-color);
+    background-color: var(--secondary-color);
     width:100%;
     position:fixed;
     transition: all 0.3s ease;
     z-index: 99;
     font-size: var(--h2-font-size);
     padding: .5rem;
+}
+
+.navbar.active {
+    background-color: var(--body-color);
+    box-shadow: 0 .03rem .3rem;
 }
 
 .nav-container{
