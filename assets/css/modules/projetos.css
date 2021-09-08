@@ -4,7 +4,6 @@
 }
 
 .projetos-container{
-    padding: var(--mb-3) 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

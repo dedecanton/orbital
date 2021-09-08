@@ -6,7 +6,6 @@
 .servicos-container{
     display: flex;
     flex-direction: column;
-    padding: var(--mb-6) 0;
 }
 
 .activities{

@@ -1,7 +1,7 @@
 .inicio {
     background-color: var(--body-color);
     padding-top: var(--mb-7);
-    padding-bottom: var(--mb-4);
+    /* padding-bottom: var(--mb-4);  */
     position: relative;
 }
 

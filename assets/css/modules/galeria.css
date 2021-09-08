@@ -1,7 +1,4 @@
 .galeria{
-    padding: var(--mb-3);
-    padding-right: var(--mb-1);
-    padding-left: var(--mb-1) ;
     width: 100%;
 }
 
