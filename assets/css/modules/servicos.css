@@ -23,6 +23,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s ease;
+}
+
+.activitie:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--white);
+    transform: scale(1.1);
+
 }
 
 .activitie-container{
