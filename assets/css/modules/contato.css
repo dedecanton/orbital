@@ -1,5 +1,5 @@
 .contato{
-    padding: 3rem auto;
+    padding: var(--mb-3);
     background-color: var(--dark-gray);
     border-radius: 2rem 2rem 0 0 ;
 }

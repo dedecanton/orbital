@@ -1,6 +1,7 @@
 footer{
-    padding: var(--mb-4) 0;
-    background-color: var(--dark-gray);
+    padding: var(--mb-4);
+    
+    background-color: var(--footer-color);
 }
 
 footer .container{
