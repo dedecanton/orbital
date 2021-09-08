@@ -1,3 +1,4 @@
+let navbar = document.querySelector(".navbar");
 let menuBtn = document.querySelector('.menu-btn');
 let icon = document.querySelector('.menu-btn i');
 let navList = document.querySelector('.nav-list');
@@ -15,8 +16,6 @@ function showMenu(){
 function removeMenuOnClick(){
     navLinks.forEach(link => link.addEventListener('click', () => tagsActive.forEach(tag => tag.classList.remove('active'))))
 }
-
-
 
 // ============= SECTIONS ==========
 const sections = document.querySelectorAll('section[id]')
@@ -39,6 +38,16 @@ function scrollActive() {
         }
     })
 }
+
+function changeNavbarColor(){
+    if (window.scrollY >= navbar.offsetHeight){
+        navbar.classList.add("active");
+    } else {
+        navbar.classList.remove("active");
+    }
+}
+changeNavbarColor();
+window.addEventListener('scroll', changeNavbarColor);
 
 
 
