@@ -1,6 +1,7 @@
 .sobre{
     padding: var(--mb-3);
     padding-top: var(--mb-7);
+    background-color: var(--white);
 }
 
 .sobre-container{
