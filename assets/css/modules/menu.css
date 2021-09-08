@@ -52,11 +52,12 @@
 .nav-link{
     color: var(--white);
     font-weight: 600;
+    transition: 1.3s;
     
 }
 
 .nav-link:hover{
-    color: var(--hover-menu-link);
+    text-decoration: underline;
 }
 
 
