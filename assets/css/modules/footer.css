@@ -16,4 +16,5 @@ footer .container{
     margin-top: var(--mb-1);
     color: var(--white);
     font-size: var(--normal-font-size);
+    text-align: center;
 }
