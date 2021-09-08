@@ -19,7 +19,7 @@
     width: 15rem;
     height: 15rem;
     color: var(--dark-gray);
-    border: 5px solid var(--dark-gray);
+    box-shadow: 0 2px 6px var(--dark-gray);
     border-radius: .5rem;
     margin: var(--mb-3);
     display: flex;
