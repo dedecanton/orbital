@@ -1,4 +1,5 @@
 import { Gallery } from "./GalleryCarrousel.js";
+import { index } from "../index.js";
 
 export const views = {
   LEFT: "leftView",
@@ -7,11 +8,11 @@ export const views = {
 }
 
 const gallery = new Gallery();
+const xhr = new XMLHttpRequest();
 
 /* Conexão da API do Orbital (Spring boot) */
 function connectGallery() {
-  let xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://orbital-api.herokuapp.com/api/estudante");
+  xhr.open("GET", index.apiEndpoint);
   xhr.addEventListener("load", () => gallery.start(JSON.parse(xhr.responseText)));
   xhr.send();
 }
@@ -60,7 +61,7 @@ export function changeView(viewName, object) {
   whatsapp.querySelector('a').href = object.whatsapp.url;
 }
 
-function formatName(userName){
+function formatName(userName) {
   let split = userName.split(" ");
   return `${split[0]} ${split[1]}`;
 }

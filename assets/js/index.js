@@ -1,22 +1,33 @@
-import {showMenu, removeMenuOnClick, scrollActive} from './modules/menu.js'
-import { loadGallery , listenerScroll } from './modules/slider.js'
+import * as menu from './modules/menu.js';
+import * as slider from './modules/slider.js';
+import * as scroll from './modules/scrollTop.js';
 import './modules/form.js';
-import {scrollTop} from './modules/scrollTop.js'
-import './modules/scrollReveal.js'
+import './modules/scrollReveal.js';
 
-// SHOW MENU-ICON ON CLICK
-showMenu();
+export default class Index {
 
-// REMOVE MENU-ICON ON CLICK IN NAV-LINK
-removeMenuOnClick();
+    constructor(title, api) {
+        this.title = title;
+        this.apiEndpoint = api;
 
-// GET SECTION AND STYLE SECTION LINK
-window.addEventListener('scroll', scrollActive);
+        this.initialize = () => {
+            // SHOW MENU-ICON ON CLICK
+            menu.showMenu();
+            // REMOVE MENU-ICON ON CLICK IN NAV-LINK
+            menu.removeMenuOnClick();
+            // SLIDER
+            slider.loadGallery();
+            slider.listenerScroll();
+            // SCROLL TOP
+            window.addEventListener('scroll', scroll.scrollTop);
+            // GET SECTION AND STYLE SECTION LINK
+            window.addEventListener('scroll', menu.scrollActive);
+            menu.scrollActive();
+        }
+    }
+}
 
-// SLIDER
-loadGallery();
-listenerScroll();
-
-// SCROLL TOP
-window.addEventListener('scroll', scrollTop)
+const index = new Index("Orbital", "https://orbital-api.herokuapp.com/api/estudante");
+index.initialize();
+export {index};
 
