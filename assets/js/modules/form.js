@@ -62,5 +62,5 @@ new Form(document.forms[0], (context) => {
                 continue;
         }
     }
-    context.setMessage('Sua mensagem foi enviada com sucesso!\n Em breve entraremos em contato!', true);
+    context.setMessage('Sua mensagem foi enviada com sucesso!', true);
 });
