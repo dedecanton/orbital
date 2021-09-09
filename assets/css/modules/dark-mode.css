@@ -1,0 +1,96 @@
+/* COLORS */
+
+
+body.dark-theme {
+
+
+    --scroll-bar-color: #fff;
+    /* background */
+    --background-color: #232323;
+    --second-background-color: #151515;
+    --third-background-color: #ffffff;
+    --fourth-background-color: #fff;
+
+    /* nav */
+    --navbar-desktop-color: #ffffff;
+    --navbar-active-background: #383838;
+    --border-header: #ffffff;
+    --menu-btn-color: #ffffff;
+    --menu-btn-active: #ffffff;
+
+    /* home */
+    --home-font-color: #fff;
+
+    /* projects */
+    --overlay-content-color: #383838;
+
+    /* scroll */
+    --scrolltop-background-color: #b3b3b3;
+    --scrolltop-color: #383838;
+
+    /* font color */
+    --primary-font-color: #ffff;
+    --secondary-font-color: #383838;
+
+    --title-primary-color: #383838;
+    --title-secondary-color: #ffffff;
+
+    /* shadow */
+    --home-shadow-color: #ddd;
+
+    /* btn */ 
+    --btn-primary-color: #383838;
+    --btn-secondary-color: #ffffff;
+    --btn-primary-hover: #fff;
+    --btn-slider-color: #fff;
+
+    /* overlay */
+    --overlay-background: #ddd;
+    --overlay-bottom: #fff;
+    --overlay-icon: #383838;
+
+    /* validation */
+    --message-color: #fff;
+    --error-color: #F26464;
+    --success-color: #5FCD69;
+
+    /* card */
+    --card-background-color: #fff;
+    --card-font-color: #383838;
+    --card-border-color: #b3b3b3;
+
+
+}
+
+
+/* ICON */
+
+.change-theme {
+    position: absolute;
+    right: calc(50% - var(--biggest-font-size));
+    bottom: var(--mb-5);
+    display: flex;
+    color: var(--navbar-mobile-color);
+    cursor: pointer;
+    font-size: var(--icon-font-size);
+}
+
+.change-theme:hover {
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.change-theme.dark {
+    transform: rotate(180deg);
+    margin-left: var(--mb-3);
+}
+
+
+@media screen and (min-width: 968px) {
+
+    .change-theme {
+        position: static;
+        font-size: var(--h2-font-size);
+        color: var(--navbar-desktop-color);
+    }
+}

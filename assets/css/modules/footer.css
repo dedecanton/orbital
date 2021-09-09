@@ -1,5 +1,5 @@
 footer{   
-    background-color: var(--footer-color);
+    background-color: var(--fifth-background-color);
 }
 
 footer .container{
@@ -12,7 +12,7 @@ footer .container{
 
 .footer-text{
     margin-top: var(--mb-1);
-    color: var(--white);
+    color: var(--primary-font-color);
     font-size: var(--normal-font-size);
     text-align: center;
 }
