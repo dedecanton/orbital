@@ -36,11 +36,17 @@ function scrollLeft() {
   gallery.prev();
 }
 
+function removeSkeleton(view) {
+  for (let node of view.querySelectorAll('.skeleton')) {
+    node.classList.remove('skeleton', 'skeleton-text')
+  }
+}
+
 export function changeView(viewName, object) {
-
-  transitionCards()
-
   let view = document.getElementById(viewName);
+  transitionCards()
+  removeSkeleton(view);
+  
   view.querySelector('.card-img').style.backgroundImage = `url(${object.image})`;
   view.querySelector('.card-title').textContent = formatName(object.name);
 

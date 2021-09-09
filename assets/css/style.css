@@ -14,6 +14,7 @@
 @import url('./modules/pages/galeria.css');
 @import url('./modules/pages/contato.css');
 @import url('./modules/pages/footer.css');
+@import url('./modules/skeleton.css');
 
 /* features */
 @import url('./modules/general.css');
