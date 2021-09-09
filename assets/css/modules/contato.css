@@ -70,7 +70,7 @@ textarea.form-text{
 }
 
 .form-btn:hover{
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
     box-shadow: 0px 0px 10px var(--secondary-shadow-color);
 }
 

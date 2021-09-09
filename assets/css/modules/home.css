@@ -76,6 +76,12 @@ body.dark-theme .home-title img{
     position: absolute;
     bottom: -1.5rem;
     left: calc(50% - 6rem);
+    transition: .3s;
+}
+
+.home-btn:hover{
+    transform: scale(1.1) !important;
+    box-shadow: 0px 0px 10px var(--secondary-shadow-color);
 }
 
 @media screen and (min-width: 968px){
