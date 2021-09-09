@@ -1,25 +1,10 @@
 /* COLORS */
-/* body.dark-theme{
 
-    --body-color: #383838;
-    --secondary-color: #EBD5C6;
-    --dark-gray: #3A98AD;
-    --light-purple: #8c87ce;
-    --white: black;
-    --modern-blue: #4492d0;
-    --hover-menu-link: #EBD5C6;
-    --btn-color: #ffffff;
-    --error-color: #F26464;
-    --success-color: #5FCD69;
-    --black: white;
-    --footer-color: #353535;
-    --border-header: #00000080;
-
-} */
 
 body.dark-theme {
 
 
+    --scroll-bar-color: #fff;
     /* background */
     --background-color: #232323;
     --second-background-color: #151515;
@@ -40,7 +25,7 @@ body.dark-theme {
     --overlay-content-color: #383838;
 
     /* scroll */
-    --scrolltop-background-color: #EBD5C6;
+    --scrolltop-background-color: #b3b3b3;
     --scrolltop-color: #383838;
 
     /* font color */

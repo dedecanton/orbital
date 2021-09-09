@@ -26,6 +26,12 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+body.dark-theme::-webkit-scrollbar-thumb{
+    background-color: #b3b3b3;
+    border-color: #b3b3b3;
+}
+
+
 h1,
 h2,
 h3 {
