@@ -3,6 +3,7 @@ import * as slider from './modules/slider.js';
 import * as scroll from './modules/scrollTop.js';
 import './modules/form.js';
 import './modules/scrollReveal.js';
+import './modules/darkMode.js'
 
 export default class Index {
 

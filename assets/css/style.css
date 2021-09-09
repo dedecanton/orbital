@@ -1,4 +1,3 @@
-
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600;700;900&display=swap');
@@ -15,32 +14,81 @@
 @import url('./modules/contato.css');
 @import url('./modules/scrolltop.css');
 @import url('./modules/footer.css');
+@import url('./modules/dark-mode.css');
 
 
 :root {
 
     /* =========== Cores ========  */
-    --body-color: #FAF0E8;
-    --secondary-color: #EBD5C6;
-    --dark-gray: #383838;
-    --light-purple: #8c87ce;
-    --white: #FFFFFF;
-    --modern-blue: #4492d0;
     --scroll-bar-color: #eac1a0;
-    --hover-menu-link: #EBD5C6;
-    --btn-color: #ffffff;
+    /* background */
+    --background-color: #FAF0E8;
+    --second-background-color: #EBD5C6;
+    --third-background-color: #383838;
+    --fourth-background-color: #ffffff;
+    --fourth-background-color: #ffffff;
+    --fifth-background-color: #353535;
+    --contact-background-color: #383838;
+
+    /* nav */
+    --navbar-mobile-background: #383838;
+    --navbar-mobile-color: #ffffff;
+    --navbar-desktop-color: #383838;
+    --navbar-active-background: #ffffff;
+    --border-header: #00000080;
+    --menu-btn-color: #383838;
+    --menu-btn-active: #fff;
+
+    /* home */
+    --home-font-color: #383838;
+
+    /* services */
+    --activitie-hover: #383838;
+
+    /* projects */
+    --overlay-content-color: #fff;
+
+
+    /* scroll */
+    --scrolltop-background-color: #000000;
+    --scrolltop-color: #ffffff;
+
+    /* font color */
+    --primary-font-color: #ffffff;
+    --secondary-font-color: #383838;
+
+    --title-font-color: #383838;
+    --title-secondary-color: #383838;
+
+    /* shadow */
+    --home-shadow-color: #383838;
+    --primary-shadow-color: #383838;
+    --secondary-shadow-color: #fff;
+
+    /* btn */
+    --btn-primary-color: #383838;
+    --btn-secondary-color: #ffffff;
+    --btn-primary-hover: #000000;
+    --btn-slider-color: #383838;
+
+    /* overlay */
+    --overlay-background: #383838;
+    --overlay-bottom: #000000;
+    --overlay-icon: #fff;
+
+    /* validation */
+    --message-color: #fff;
     --error-color: #F26464;
     --success-color: #5FCD69;
-    --black: #000000;
-    --footer-color: #353535;
-    --border-header: #00000080;
 
-
-
+    /* card */
+    --card-background-color: #383838;
+    --card-font-color: #ffffff;
+    --card-border-color: #fff;
 
     /* ========== Fontes ============ */
     --body-font: 'Poppins', sans-serif;
-    --subtitle-font:  'MuseoModerno', cursive;
+    --subtitle-font: 'MuseoModerno', cursive;
     --icon-font-size: 3rem;
     --biggest-font-size: 2rem;
     --h1-font-size: 5rem;
@@ -84,5 +132,3 @@
         --small-font-size: .875rem;
     }
 }
-
-

@@ -1,6 +1,10 @@
 .projetos{
-    background-color: var(--secondary-color);
+    background-color: var(--second-background-color);
     background-image: url('../../images/lines-background-mobile.png');
+}
+
+body.dark-theme section.projetos{
+    background-image: url('../../images/lines-background-dark.png');
 }
 
 .projetos-container{
@@ -26,6 +30,7 @@
     margin: var(--mb-2);
     transition: all .3s ease;
     position: relative;
+    background-color: var(--fourth-background-color);
 }
 
 /* .projects-row > * {
@@ -43,8 +48,8 @@
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: var(--dark-gray);
-    border-bottom: var(--mb-1) solid var(--black);
+    background-color: var(--overlay-background);
+    border-bottom: var(--mb-1) solid var(--overlay-bottom);
 }
 
 .overlay {
@@ -58,7 +63,7 @@
 }
 
 .icon {
-    color: white;
+    color: var(--overlay-icon);
     font-size: 70px;
     position: absolute;
     top: 45%;
@@ -70,8 +75,8 @@
 
 .overlay-content {
     width: 100%;
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--overlay-bottom);
+    color: var(--overlay-content-color);
     font-size: var(--small-font-size);
     padding: 0.4rem;
     user-select: none;
