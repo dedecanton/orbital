@@ -2,18 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600;700;900&display=swap');
 
-/* files css */
+/*  ========== files css ========= */
+
+/* pages */
+@import url('./modules/pages/menu.css');
+@import url('./modules/pages/inicio.css');
+@import url('./modules/pages/sobre.css');
+@import url('./modules/pages/equipe.css');
+@import url('./modules/pages/servicos.css');
+@import url('./modules/pages/projetos.css');
+@import url('./modules/pages/galeria.css');
+@import url('./modules/pages/contato.css');
+@import url('./modules/pages/footer.css');
+
+/* features */
 @import url('./modules/general.css');
-@import url('./modules/menu.css');
-@import url('./modules/home.css');
-@import url('./modules/sobre.css');
-@import url('./modules/team.css');
-@import url('./modules/galeria.css');
-@import url('./modules/servicos.css');
-@import url('./modules/projetos.css');
-@import url('./modules/contato.css');
 @import url('./modules/scrolltop.css');
-@import url('./modules/footer.css');
 @import url('./modules/dark-mode.css');
 
 

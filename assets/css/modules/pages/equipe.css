@@ -10,7 +10,7 @@ section.equipe {
     overflow: hidden;
     position: relative;
 
-    background-image: url('../../images/lines-background-mobile.png');
+    background-image: url('../../../images/lines-background-mobile.png');
     background-position: top;
     background-size: contain;
     
@@ -18,7 +18,7 @@ section.equipe {
 }
 
 body.dark-theme section.equipe{
-    background-image: url('../../images/lines-background-dark.png');
+    background-image: url('../../../images/lines-background-dark.png');
 }
 
 

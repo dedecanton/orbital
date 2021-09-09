@@ -1,10 +1,10 @@
 .projetos{
     background-color: var(--second-background-color);
-    background-image: url('../../images/lines-background-mobile.png');
+    background-image: url('../../../images/lines-background-mobile.png');
 }
 
 body.dark-theme section.projetos{
-    background-image: url('../../images/lines-background-dark.png');
+    background-image: url('../../../images/lines-background-dark.png');
 }
 
 .projetos-container{

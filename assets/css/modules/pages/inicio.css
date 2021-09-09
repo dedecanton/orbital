@@ -28,11 +28,11 @@
 }
 
 .home-title img{
-    content: url('../../images/logo.svg');
+    content: url('../../../images/logo.svg');
 }
 
 body.dark-theme .home-title img{
-    content: url('../../images/logo-white.svg');
+    content: url('../../../images/logo-white.svg');
 }
 
 .home-title img{
