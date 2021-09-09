@@ -7,8 +7,8 @@ html {
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--text-color);
+    background-color: var(--background-color);
+    color: var(--secondary-font-color);
     line-height: 1.6;
     
 }
@@ -43,7 +43,7 @@ img {
 
 
 .section-title{
-    color: var(--dark-gray);
+    color: var(--title-font-color);
     font-size: var(--h2-font-size);
     font-weight: var(--font-bold);
     text-align: center;

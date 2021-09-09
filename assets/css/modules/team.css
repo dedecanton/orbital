@@ -41,8 +41,7 @@ section.equipe {
     border-radius: .5rem;
 
 
-    background-color: var(--dark-gray);
-    /* border: solid red 5px; */
+    background-color: var(--third-background-color);
 
 
     opacity: 1;
@@ -67,7 +66,7 @@ section.equipe {
 
 .card-container {
     margin-top: .5rem;
-    color: var(--white);
+    color: var(--primary-font-color);
 }
 
 .card-title {
@@ -76,12 +75,11 @@ section.equipe {
 
 .social {
     font-size: var(--normal-font-size);
-    color: var(--white)
 }
 
 
 .social a {
-    color: var(--white);
+    color: var(--primary-font-color);
 }
 
 .slider {
@@ -183,7 +181,7 @@ section.equipe {
 }
 
 .buttons{
-    color: var(--dark-gray);
+    color: var(--btn-primary-color);
     display: flex;
     justify-content: center;
 }
@@ -194,7 +192,7 @@ section.equipe {
 
 .nav-left:hover {
     transform: translate(-10px, 0);
-    color: var(--black);
+    color: var(--btn-primary-hover);
     transition: 0.4s;
 }
 

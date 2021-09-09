@@ -1,5 +1,5 @@
 .servicos{
-    background-color: var(--white);
+    background-color: var(--fourth-background-color);
 }
 
 
@@ -18,8 +18,8 @@
 .activitie{
     width: 15rem;
     height: 15rem;
-    color: var(--dark-gray);
-    box-shadow: 0 2px 6px var(--dark-gray);
+    color: var(--secondary-font-color);
+    box-shadow: 0 2px 6px var(--primary-shadow-color);
     border-radius: .5rem;
     margin: var(--mb-3);
     display: flex;
@@ -29,8 +29,8 @@
 }
 
 .activitie:hover{
-    background-color: var(--dark-gray);
-    color: var(--white);
+    background-color: var(--third-background-color);
+    color: var(--primary-font-color);
     transform: scale(1.1);
 }
 

@@ -1,0 +1,47 @@
+/* COLORS */
+/* body.dark-theme{
+
+    --body-color: #383838;
+    --secondary-color: #EBD5C6;
+    --dark-gray: #3A98AD;
+    --light-purple: #8c87ce;
+    --white: black;
+    --modern-blue: #4492d0;
+    --hover-menu-link: #EBD5C6;
+    --btn-color: #ffffff;
+    --error-color: #F26464;
+    --success-color: #5FCD69;
+    --black: white;
+    --footer-color: #353535;
+    --border-header: #00000080;
+
+} */
+
+
+
+/* ICON */
+
+.change-theme {
+    position: absolute;
+    right: calc(50% - var(--biggest-font-size));
+    bottom: var(--mb-5);
+    display: flex;
+    color: var(--white);
+    cursor: pointer;
+    font-size: var(--icon-font-size);
+}
+
+.change-theme:hover{
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 968px){
+
+    .change-theme{
+        position: static;
+        font-size: var(--h2-font-size);
+        color: var(--dark-gray);
+    }
+
+}

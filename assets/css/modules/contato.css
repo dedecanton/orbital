@@ -1,11 +1,11 @@
 .contato{
-    background-color: var(--dark-gray);
+    background-color: var(--third-background-color);
     border-radius: 2rem 2rem 0 0 ;
 }
 
 .contato .section-title{
     padding: 1.5rem;
-    color: var(--white);
+    color: var(--primary-font-color);
 }
 
 .contato-container{
@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: var(--white);
+    color: var(--primary-font-color);
     text-align: center;    
 }
 
@@ -55,9 +55,8 @@ textarea.form-text{
 }
 
 .form-btn{
-    background-color: var(--btn-color) ;
-    
-    color: var(--dark-gray);
+    background-color: var(--btn-secondary-color) ;
+    color: var(--secondary-font-color);
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
@@ -72,7 +71,7 @@ textarea.form-text{
 
 .form-btn:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 10px var(--white);
+    box-shadow: 0px 0px 10px var(--secondary-shadow-color);
 }
 
 .form-message.invalid-message,
@@ -80,7 +79,7 @@ textarea.form-text{
     padding: var(--mb-2 );
     font-size: var(--small-font-size);
     border-radius: var(--mb-3);
-    color: var(--white);
+    color: var(--message-color);
     font-style: italic;
 }
 

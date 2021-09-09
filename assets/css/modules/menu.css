@@ -1,7 +1,7 @@
 /* ======== MENU ========== */
 
 .navbar{
-    background-color: var(--body-color);
+    background-color: var(--background-color);
     width:100%;
     position:fixed;
     transition: all 0.3s ease;
@@ -11,7 +11,7 @@
 }
 
 .navbar.active {
-    background-color: var(--white);
+    background-color: var(--navbar-active-background);
     box-shadow: 0 2px 4px var(--border-header);
 }
 
@@ -33,7 +33,7 @@
     justify-content: flex-start;
     align-items: left;
    
-    background: var(--dark-gray);
+    background: var(--navbar-mobile-background);
     transition: all .3s ease;
     z-index: -1;
 
@@ -50,7 +50,7 @@
 }
 
 .nav-link{
-    color: var(--white);
+    color: var(--navbar-mobile-color);
     font-weight: 600;
     transition: 1.3s;
     
@@ -64,14 +64,14 @@
 .menu-btn{
     display: block;
     cursor: pointer;
-    color: var(--dark-gray);
+    color: var(--menu-btn-color);
     font-size: var(--btn-font-size);
 }
 
 
 .menu-btn i.active::before{
     content: '\f00d';
-    color: var(--white);
+    color: var(--menu-btn-active);
 }
 
 
@@ -117,7 +117,7 @@
 
     .nav-link{
         padding-left: 1.3rem;
-        color: var(--dark-gray);
+        color: var(--navbar-desktop-color);
     }
 
     .nav-item{

@@ -3,6 +3,7 @@ import { loadGallery , listenerScroll } from './modules/slider.js'
 import './modules/form.js';
 import {scrollTop} from './modules/scrollTop.js'
 import './modules/scrollReveal.js'
+import './modules/darkMode.js'
 
 // SHOW MENU-ICON ON CLICK
 showMenu();

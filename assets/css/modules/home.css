@@ -1,5 +1,5 @@
 .inicio {
-    background-color: var(--body-color);
+    background-color: var(--background-color);
     padding-top: var(--mb-7);
     /* padding-bottom: var(--mb-4);  */
     position: relative;
@@ -22,7 +22,7 @@
 
 .home-img img{
 
-    filter: drop-shadow( 20px 20px 5px VAR(--dark-gray));
+    filter: drop-shadow( 20px 20px 5px var(--primary-shadow-color));
 }
 
 .home-title img{
@@ -31,7 +31,7 @@
 }
 
 .home-subtitle{
-    color: var(--dark-gray);
+    color: var(--secondary-font-color);
     font-family: var(--subtitle-font);
     font-size: var(--biggest-font-size);
     font-weight: var(--font-black);
@@ -45,8 +45,8 @@
 }
 
 .home-btn{
-    background-color: var(--dark-gray) ;
-    color: var(--white);
+    background-color: var(--btn-primary-color);
+    color: var(--primary-font-color);
     border: none;
     outline: none;
 
