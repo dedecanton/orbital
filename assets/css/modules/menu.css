@@ -84,6 +84,10 @@
     content: url('../../images/logo.svg');
 }
 
+body.dark-theme .nav-logo img{
+    content: url('../../images/logo-white.svg');
+}
+
 .nav-logo.active img{
     content: url('../../images/logo-white.svg');
 }

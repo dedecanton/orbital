@@ -1,6 +1,10 @@
 .projetos{
-    background-color: var(--secondary-background-color);
+    background-color: var(--second-background-color);
     background-image: url('../../images/lines-background-mobile.png');
+}
+
+body.dark-theme section.projetos{
+    background-image: url('../../images/lines-background-dark.png');
 }
 
 .projetos-container{
@@ -72,7 +76,7 @@
 .overlay-content {
     width: 100%;
     background-color: var(--overlay-bottom);
-    color: var(--primary-font-color);
+    color: var(--overlay-content-color);
     font-size: var(--small-font-size);
     padding: 0.4rem;
     user-select: none;

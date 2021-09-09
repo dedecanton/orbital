@@ -29,7 +29,7 @@
 }
 
 .activitie:hover{
-    background-color: var(--third-background-color);
+    background-color: var(--activitie-hover);
     color: var(--primary-font-color);
     transform: scale(1.1);
 }

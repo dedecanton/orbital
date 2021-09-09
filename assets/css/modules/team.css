@@ -1,5 +1,5 @@
 section.equipe {
-    background-color: var(--secondary-color);
+    background-color: var(--second-background-color);
 
     padding-bottom: var(--mb-7);
     width: 100%;
@@ -16,6 +16,12 @@ section.equipe {
     
 
 }
+
+body.dark-theme section.equipe{
+    background-image: url('../../images/lines-background-dark.png');
+}
+
+
 
 .equipe-container {
     margin: 0 auto;
@@ -41,7 +47,7 @@ section.equipe {
     border-radius: .5rem;
 
 
-    background-color: var(--third-background-color);
+    background-color: var(--card-background-color);
 
 
     opacity: 1;
@@ -66,7 +72,7 @@ section.equipe {
 
 .card-container {
     margin-top: .5rem;
-    color: var(--primary-font-color);
+    color: var(--card-font-color);
 }
 
 .card-title {
@@ -79,7 +85,7 @@ section.equipe {
 
 
 .social a {
-    color: var(--primary-font-color);
+    color: var(--card-font-color);
 }
 
 .slider {
@@ -90,7 +96,7 @@ section.equipe {
 
 .main-card {
     z-index: var(--z-main);
-    border: 5px solid var(--body-color);
+    border: 5px solid var(--card-border-color);
 }
 
 .main-card.transition {
@@ -181,7 +187,7 @@ section.equipe {
 }
 
 .buttons{
-    color: var(--btn-primary-color);
+    color: var(--btn-slider-color);
     display: flex;
     justify-content: center;
 }
@@ -202,7 +208,7 @@ section.equipe {
 
 .nav-right:hover {
     transform: translate(10px, 0);
-    color: var(--black);
+    color: var(--btn-primary-hover);
     transition: 0.4s;
 }
 
