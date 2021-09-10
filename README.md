@@ -1,24 +1,25 @@
-<h1 id="titulo"> <img src="assets/images/logo.svg" style="float:left; alt="Orbital Logo" width="150px"></h1>
-<p>
-Este projeto está sendo desenvolvido pelo Squad 4 do #TeuFuturo. 
-</p>
+# Untitled
 
-### :star: Status Atual
-> * A equipe está decidindo as ultimas alterações em design.
-> * Códigos e estrutura sendo desenvolvidas.
+![logo-white.svg](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/logo-white.svg)
 
+## 🔎O que é o projeto?
 
-## Objetivo
-<p> O objetivo do projeto é criar uma Landing Page para um cliente e testar nossas habilidades de trabalho em equipe e desenvolvimento de projeto.</p>
+Projeto desenvolvido pelo Squad 4, denoniminado Orbital, do Programa #TeuFuturo com o objetivo de apresentar a equipe e colocar em prática os conhecimentos adquiridos no curso até o momento da entrega (10/09/2021). 
 
-<ul>
-    <li> A Landing page deve ser feita com HTML, Javascript e CSS contendo algumas interações com o usuário.</li>
-</ul>
+## ⚙️Quais as tecnologias utilizadas?
 
-## Resolução
+Foi previamente estabelecido pelo grupo de professores que as tecnologias utilizadas para o desenvolvimento da Landing Page seriam HTML, CSS e JavaScript, além do Git e GitHub para o versionamento do código. Ademais, por escolha dos participantes, a construção do design foi feita utilizando o Figma.
 
-<p> 
-A Equipe decidiu criar uma Landing page para mostrar o desenvolvimento individual e coletivo de cada membro. <br>
-Com uma ideia inicial de uma empresa de desenvolvimento web, será apresentado toda a equipe e seus projetos individuais,
-assim como o que foi aprendido ao longo de todo o curso e o contato de cada um.</br>
-</p>
+## 🔗Link para a Landing Page:
+
+[https://dedecanton.github.io/orbital/](https://dedecanton.github.io/orbital/) ou [clique aqui!](https://dedecanton.github.io/orbital/)
+
+## 🖼️Algumas imagens do projeto:
+
+### Desktop
+
+![orbital-desktop.png](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/orbital-desktop.png)
+
+### Mobile
+
+![orbital-mobile.png](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/orbital-mobile.png)
