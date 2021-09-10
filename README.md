@@ -1,6 +1,6 @@
 # Untitled
 
-![logo-white.svg](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/logo-white.svg)
+![logo-white.svg](readme-images/logo-white.svg)
 
 ## 🔎O que é o projeto?
 
@@ -18,8 +18,8 @@ Foi previamente estabelecido pelo grupo de professores que as tecnologias utiliz
 
 ### Desktop
 
-![orbital-desktop.png](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/orbital-desktop.png)
+![orbital-desktop.png](readme-images/orbital-desktop.png)
 
 ### Mobile
 
-![orbital-mobile.png](Untitled%20c404f5111c154cfeb9fadb940b8f43c3/orbital-mobile.png)
+![orbital-mobile.png](readme-images/orbital-mobile.png)
