@@ -1,6 +1,6 @@
-# Untitled
 
-![logo-white.svg](readme-images/logo-white.svg)
+
+# ![logo-white.svg](readme-images/logo-white.svg)
 
 ## 🔎O que é o projeto?
 
