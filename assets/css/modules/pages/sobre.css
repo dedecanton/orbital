@@ -10,14 +10,14 @@
     align-items: center;
 }
 
-.sobre-text{
+.sobre-texts > p {
     text-align: center;
     font-size: var(--normal-font-size);
     padding: var(--mb-1);
 }
 
 
-.sobre-text strong{
+.sobre-texts > p strong{
     font-weight: var(--font-semi-bold);
     font-style: italic;
     text-decoration: underline;
@@ -44,7 +44,7 @@
         max-width: 45%;
     }
 
-    .sobre-text{
+    .sobre-texts > p {
         text-align: left;
     }
 
